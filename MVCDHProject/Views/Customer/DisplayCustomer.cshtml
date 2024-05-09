@@ -1,0 +1,13 @@
+﻿@model Customer
+<h2 style="text-align:center;background-color:yellowgreen;color:red">Customer Details</h2>
+<table border="1" align="center">
+    <tr><td>Custid: </td><td>@Model.Custid</td></tr>
+    <tr><td>Name: </td><td>@Model.Name</td></tr>
+    <tr><td>Balance: </td><td>@Model.Balance</td></tr>
+    <tr><td>City: </td><td>@Model.City</td></tr>
+    <tr><td>Status: </td><td>@Model.Status</td></tr>
+</table>
+<div style="text-align:center">
+    <a asp-action="DisplayCustomers" align="center">Back to Customer Details</a>
+</div>
+

@@ -1,0 +1,8 @@
+TestApp
+wipd cgms cnfu humu
+
+Client ID: 710489140871-aeqsmb3uemkpmipqqi1ok8tfcaa9bshg.apps.googleusercontent.com
+Client Secret: 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
+
+App ID: 1183763202992376
+App Secret: fb4887db78ed61e37635773f3c3fcd77

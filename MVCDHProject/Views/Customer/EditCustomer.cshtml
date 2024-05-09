@@ -1,0 +1,12 @@
+﻿@model Customer
+<form asp-controller="Customer" asp-action="UpdateCustomer">
+    <div><label asp-for="Custid"></label><br /><input asp-for="Custid" readonly /></div>
+    <div><label asp-for="Name"></label><br /><input asp-for="Name" /></div>
+    <div><label asp-for="Balance"></label><br /><input asp-for="Balance" /></div>
+    <div><label asp-for="City"></label><br /><input asp-for="City" /></div>
+    <div><label asp-for="Status"></label><br /><input asp-for="Status" disabled /></div>
+    <div>
+        <input type="submit" value="Update" />
+        <a asp-action="DisplayCustomers" align="center">Cancel</a>
+    </div>
+</form>
