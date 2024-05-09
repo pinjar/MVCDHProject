@@ -17,6 +17,7 @@ namespace MVCDHProject.Controllers
 
         public IActionResult Index()
         {
+            //view 
             return View();
         }
 
